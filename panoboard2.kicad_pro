@@ -647,6 +647,10 @@
       {
         "netclass": "MAINS_H",
         "pattern": "Net-(C3-Pad1)"
+      },
+      {
+        "netclass": "MAINS_H",
+        "pattern": "Net-(J8-*"
       }
     ]
   },

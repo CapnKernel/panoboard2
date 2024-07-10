@@ -9938,7 +9938,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 30.48) (xy 87.63 30.48)
+			(xy 76.2 30.48) (xy 97.79 30.48)
 		)
 		(stroke
 			(width 0)
@@ -10508,7 +10508,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 50.8) (xy 97.79 50.8)
+			(xy 76.2 50.8) (xy 83.82 50.8)
 		)
 		(stroke
 			(width 0)
@@ -10535,6 +10535,16 @@
 			(type default)
 		)
 		(uuid "4fb5d4d6-5b73-4c50-828d-cce03445aac0")
+	)
+	(wire
+		(pts
+			(xy 91.44 50.8) (xy 97.79 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51ead66f-39d7-43ea-a0e7-069224d6cfbd")
 	)
 	(wire
 		(pts
@@ -11925,16 +11935,6 @@
 			(type default)
 		)
 		(uuid "c411832e-e53c-41e7-b85d-18b1858e6c86")
-	)
-	(wire
-		(pts
-			(xy 95.25 30.48) (xy 97.79 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c4dc6055-32ef-469d-bbc1-4aa95c86e131")
 	)
 	(wire
 		(pts
@@ -18053,7 +18053,7 @@
 	)
 	(symbol
 		(lib_id "Device:Fuse")
-		(at 91.44 30.48 90)
+		(at 87.63 50.8 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18062,7 +18062,7 @@
 		(fields_autoplaced yes)
 		(uuid "64a55544-fe7a-4e4f-9ffc-c8cee6e302e4")
 		(property "Reference" "F2"
-			(at 91.44 25.5735 90)
+			(at 87.63 45.8935 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18070,7 +18070,7 @@
 			)
 		)
 		(property "Value" "5A"
-			(at 91.44 27.9978 90)
+			(at 87.63 48.3178 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18078,7 +18078,7 @@
 			)
 		)
 		(property "Footprint" "Fuse:Fuseholder_Cylinder-5x20mm_Stelvio-Kontek_PTF78_Horizontal_Open"
-			(at 91.44 32.258 90)
+			(at 87.63 52.578 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18087,7 +18087,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 91.44 30.48 0)
+			(at 87.63 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18096,7 +18096,7 @@
 			)
 		)
 		(property "Description" "Fuse"
-			(at 91.44 30.48 0)
+			(at 87.63 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18105,7 +18105,7 @@
 			)
 		)
 		(property "TODO" "?"
-			(at 91.44 30.48 0)
+			(at 87.63 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18114,7 +18114,7 @@
 			)
 		)
 		(property "AliExpress" "1005002077970716"
-			(at 91.44 30.48 0)
+			(at 87.63 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
