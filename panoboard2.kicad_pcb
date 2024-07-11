@@ -73728,6 +73728,19 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "JLCJLCJLCJLC"
+		(at 82.09 97.82 0)
+		(layer "F.SilkS")
+		(uuid "b73ad740-b578-499f-ada1-5417e2d9b2fe")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "HTR"
 		(at 84.022216 32.060493 0)
 		(layer "F.SilkS")
