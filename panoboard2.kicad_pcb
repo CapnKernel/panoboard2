@@ -52,7 +52,7 @@
 			(usegerberextensions no)
 			(usegerberattributes yes)
 			(usegerberadvancedattributes yes)
-			(creategerberjobfile yes)
+			(creategerberjobfile no)
 			(dashed_line_dash_ratio 12.000000)
 			(dashed_line_gap_ratio 3.000000)
 			(svgprecision 4)
@@ -55056,7 +55056,7 @@
 	(footprint "Symbol:Symbol_Danger_8x8mm_Copper"
 		(layer "B.Cu")
 		(uuid "1f97cf7c-95d4-4369-83c2-5b3922754062")
-		(at 89.813608 83.75865 180)
+		(at 88.371392 83.248157 180)
 		(descr "Danger symbol, 8x8mm, copper layer")
 		(tags "warning graphic")
 		(property "Reference" "REF**"
@@ -63871,18 +63871,8 @@
 		(uuid "ff15d36c-902a-4eab-b75e-0e2192953049")
 	)
 	(gr_line
-		(start 114.022216 62.310493)
-		(end 116.522216 59.810493)
-		(stroke
-			(width 1)
-			(type default)
-		)
-		(layer "B.Mask")
-		(uuid "01aa5a72-1224-49f5-8a3c-a4c19fe18682")
-	)
-	(gr_line
-		(start 96.772216 99.560493)
-		(end 96.772216 73.310493)
+		(start 93.97 99.51)
+		(end 93.97 76.18)
 		(stroke
 			(width 1)
 			(type default)
@@ -63911,8 +63901,8 @@
 		(uuid "85b5e8c0-b1d5-4036-a5ed-029e5e6fb228")
 	)
 	(gr_line
-		(start 96.772216 99.560493)
-		(end 96.772216 73.310493)
+		(start 93.97 99.51)
+		(end 93.97 76.18)
 		(stroke
 			(width 1)
 			(type default)
@@ -63929,16 +63919,6 @@
 		)
 		(layer "F.Mask")
 		(uuid "6972872f-f621-4856-a057-c1db06f890ba")
-	)
-	(gr_line
-		(start 114.022216 62.310493)
-		(end 116.522216 59.810493)
-		(stroke
-			(width 1)
-			(type default)
-		)
-		(layer "F.Mask")
-		(uuid "6d47e5fe-3b7c-475c-bb81-c4a8a26ab5eb")
 	)
 	(gr_line
 		(start 111.522216 36.560493)
@@ -73663,7 +73643,7 @@
 		)
 	)
 	(gr_text "Uncertified design.\nContact with mains voltage may cause death.\nLive board, exercise caution."
-		(at 94.272216 95.560493 0)
+		(at 92.83 95.05 0)
 		(layer "B.SilkS")
 		(uuid "95d4eeb4-03d8-4e28-bcc0-01300e062fd0")
 		(effects
