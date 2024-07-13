@@ -257,4 +257,15 @@
 		(thermal_bridge_angle 45)
 		(uuid "5cf4d7bd-e343-4130-b176-2c0ec96bd8f4")
 	)
+	(model "${KIPRJMOD}/local.pretty/SMD-6_L7.3-W6.5-H3.6-LS10.16-P2.54.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 -90)
+		)
+	)
 )

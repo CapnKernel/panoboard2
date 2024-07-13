@@ -1,4 +1,4 @@
-(footprint "SW_JS1400BFQ"
+(footprint "SKRHABE010"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -14,7 +14,7 @@
 			)
 		)
 	)
-	(property "Value" "SW_JS1400BFQ"
+	(property "Value" "SKRHABE010"
 		(at 2.42355 6.073945 0)
 		(layer "F.Fab")
 		(uuid "b8db7f9d-9140-4faa-8906-d17859d13d98")
@@ -25,7 +25,7 @@
 			)
 		)
 	)
-	(property "Footprint" "SW_JS1400BFQ"
+	(property "Footprint" "SKRHABE010"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -291,5 +291,16 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(solder_mask_margin 0.102)
 		(uuid "daafe380-2cae-45a1-8cfa-b21f75ae7f98")
+	)
+	(model "${KIPRJMOD}/local.pretty/SW-SMD_SKRHABE010.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
 	)
 )

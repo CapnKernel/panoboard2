@@ -231,12 +231,12 @@
 		(remove_unused_layers no)
 		(uuid "a1410352-8e9a-4d14-a700-cafb60bf7695")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Rect_L24.0mm_W12.6mm_P22.50mm_MKT.wrl"
+	(model "${KIPRJMOD}/local.pretty/CAP-TH_L29.0-W15.5-P27.50-D1.4.wrl"
 		(offset
-			(xyz 0 0 0)
+			(xyz 10 0 1)
 		)
 		(scale
-			(xyz 1 1 1)
+			(xyz 0.73 0.73 0.73)
 		)
 		(rotate
 			(xyz 0 0 0)

@@ -240,7 +240,7 @@
 		(roundrect_rratio 0.25)
 		(uuid "c89f8ee5-d4ed-40c3-a1db-83506234bbb6")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_Push_SPST_NO_Alps_SKRK.wrl"
+	(model "${KIPRJMOD}/local.pretty/SW-SMD_L4.0-W2.9-LS4.8-2.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

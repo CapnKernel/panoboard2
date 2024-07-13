@@ -434,7 +434,7 @@
 		(at 1.6 2.2)
 		(size 1.2 1.2)
 		(drill 1.2)
-		(layers "*.Cu" "*.Mask")
+		(layers "F&B.Cu" "*.Mask")
 		(uuid "cdb8a1c5-23bc-45cc-9c44-6c1fe58081da")
 	)
 	(pad "1" thru_hole rect
@@ -500,5 +500,16 @@
 		(layers "*.Cu")
 		(remove_unused_layers no)
 		(uuid "03a8a7b8-4d38-4ff5-b54f-78bd8b76dcca")
+	)
+	(model "${KIPRJMOD}/local.pretty/CONN-TH_533750810.wrl"
+		(offset
+			(xyz -8.75 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
 	)
 )
