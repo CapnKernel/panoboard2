@@ -1,7 +1,7 @@
 (footprint "SKRHABE010"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at -2.02509 -6.4353 0)
@@ -25,18 +25,6 @@
 			)
 		)
 	)
-	(property "Footprint" "SKRHABE010"
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "a614659b-b31d-418d-808b-3d64d8cec852")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -46,6 +34,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -58,6 +47,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -226,72 +216,73 @@
 		(at 0 -1.9)
 		(size 0.8 0.8)
 		(drill 0.8)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
 		(uuid "9cf42814-e6b8-4d91-ae6b-5a427d1fc5c0")
 	)
 	(pad "" np_thru_hole circle
 		(at 0 1.9)
 		(size 1.1 1.1)
 		(drill 1.1)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
 		(uuid "c66c3166-9c83-484a-b0a4-064a4b901ee2")
 	)
 	(pad "1" smd rect
 		(at -3.3 -1.425)
 		(size 2 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.102)
 		(uuid "87772e6d-b34a-4dfb-9023-15498633be0f")
 	)
 	(pad "2" smd rect
 		(at -3.3 0)
 		(size 2 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.102)
 		(uuid "9b784bea-6d07-456b-8ac3-516fcb3f0119")
 	)
 	(pad "3" smd rect
 		(at -3.3 1.425)
 		(size 2 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.102)
 		(uuid "93fc1480-3056-4df3-988e-000aa0898b4c")
 	)
 	(pad "4" smd rect
 		(at 3.3 -1.425)
 		(size 2 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.102)
 		(uuid "0c47ce49-53bd-4414-8507-2b670e483199")
 	)
 	(pad "5" smd rect
 		(at 3.3 0)
 		(size 2 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.102)
 		(uuid "4eb38ff0-1f89-4039-a5a3-b4a85d1ded73")
 	)
 	(pad "6" smd rect
 		(at 3.3 1.425)
 		(size 2 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.102)
 		(uuid "35406971-ae4c-491e-969e-7fb82c9f48c8")
 	)
 	(pad "SH1" smd rect
 		(at 0 -3.6)
 		(size 2 1.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.102)
 		(uuid "4b7861ea-2737-4b91-b478-c25590dfce14")
 	)
 	(pad "SH2" smd rect
 		(at 0 3.6)
 		(size 2 1.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.102)
 		(uuid "daafe380-2cae-45a1-8cfa-b21f75ae7f98")
 	)
+	(embedded_fonts no)
 	(model "${KIPRJMOD}/local.pretty/SW-SMD_SKRHABE010.wrl"
 		(offset
 			(xyz 0 0 0)

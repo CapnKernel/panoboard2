@@ -1,7 +1,7 @@
 (footprint "SW_Push_SPST_NO_432"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "tactile switch, body 4x3mm, 2mm total height")
 	(tags "SMD SMT button")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" "SW_Push_SPST_NO_432"
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "1985df2c-abd6-457e-a5b8-a643a90f3762")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -211,7 +201,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "4352d0f7-5fe9-467a-a2cc-7a0b49e9af8a")
 	)
@@ -229,17 +219,18 @@
 	(pad "1" smd roundrect
 		(at -2.2 0)
 		(size 1.4 2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "326c8e35-c807-4874-ba94-75c4bfafa144")
 	)
 	(pad "2" smd roundrect
 		(at 2.1 0)
 		(size 1.4 2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "c89f8ee5-d4ed-40c3-a1db-83506234bbb6")
 	)
+	(embedded_fonts no)
 	(model "${KIPRJMOD}/local.pretty/SW-SMD_L4.0-W2.9-LS4.8-2.wrl"
 		(offset
 			(xyz 0 0 0)

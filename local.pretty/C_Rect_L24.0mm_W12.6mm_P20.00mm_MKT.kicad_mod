@@ -1,7 +1,7 @@
 (footprint "C_Rect_L24.0mm_W12.6mm_P20.00mm_MKT"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "C, Rect series, Radial, pin pitch=20.00mm, , length*width=24*12.6mm^2, Capacitor")
 	(tags "C Rect series Radial pin pitch 20.00mm  length 24mm width 12.6mm Capacitor")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" "C_Rect_L24.0mm_W12.6mm_P20.00mm_MKT"
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "03322b9f-668a-41b0-a6f8-516cbdfd1ad0")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at -1.25 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -231,6 +221,7 @@
 		(remove_unused_layers no)
 		(uuid "a1410352-8e9a-4d14-a700-cafb60bf7695")
 	)
+	(embedded_fonts no)
 	(model "${KIPRJMOD}/local.pretty/CAP-TH_L29.0-W15.5-P27.50-D1.4.wrl"
 		(offset
 			(xyz 10 0 1)

@@ -1,7 +1,7 @@
 (footprint "SSR-25"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 30.15 24.3 0)
@@ -21,19 +21,6 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "a1ed0b53-005f-41f3-9a17-7eb30479617c")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" "SSR-25"
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "f66169bf-9d63-411a-887c-0348fc9207d8")
 		(effects
 			(font
 				(size 1 1)
@@ -75,7 +62,7 @@
 			(width 0.15)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "8f209470-ae3b-477a-99b7-412c2f463845")
 	)
@@ -86,7 +73,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "02d853c0-8d8f-4ddc-8cf6-ad52af7daf86")
 	)
@@ -97,7 +84,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "d63c112f-2cd8-47bd-a55f-0f936100d7f0")
 	)
@@ -145,4 +132,5 @@
 		(remove_unused_layers no)
 		(uuid "f68ae05c-73bc-44cc-9f64-eb055236fbac")
 	)
+	(embedded_fonts no)
 )

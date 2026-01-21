@@ -1,7 +1,7 @@
 (footprint "SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "SMD Solder Jumper, 1x1.5mm Pads, 0.3mm gap, bridged with 1 copper strip")
 	(tags "net tie , solder jumper open")
@@ -28,18 +28,6 @@
 			)
 		)
 	)
-	(property "Footprint" "SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm"
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "6865961c-fa41-478f-bd4e-b6802e65e72b")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -49,6 +37,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -61,6 +50,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -74,9 +64,21 @@
 			(width 0.15)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.Cu")
 		(uuid "7fdd6eab-3336-4b21-b324-50126a17225f")
+	)
+	(fp_poly
+		(pts
+			(xy -0.120323 -0.198822) (xy 0.145796 -0.198822) (xy 0.145796 0.202658) (xy -0.120323 0.202658)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Mask")
+		(uuid "316dc012-0336-4e46-869f-e312b5652dc9")
 	)
 	(fp_line
 		(start -1.3 -0.9)
@@ -117,18 +119,6 @@
 		)
 		(layer "F.SilkS")
 		(uuid "e1bbc8b7-83e5-439e-9813-d981673c59a7")
-	)
-	(fp_poly
-		(pts
-			(xy -0.120323 -0.198822) (xy 0.145796 -0.198822) (xy 0.145796 0.202658) (xy -0.120323 0.202658)
-		)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(fill solid)
-		(layer "F.Mask")
-		(uuid "316dc012-0336-4e46-869f-e312b5652dc9")
 	)
 	(fp_line
 		(start -1.4 -1)
@@ -182,4 +172,5 @@
 		(layers "F.Cu" "F.Mask")
 		(uuid "c040c7c1-315e-41f5-9f6b-cba5598ffa14")
 	)
+	(embedded_fonts no)
 )
