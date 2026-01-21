@@ -32,5 +32,7 @@ fp-info-cache
 /scripts/__pycache__/*.pyc
 /output/*.pdf
 /output/*.zip
+/output/*.gbr
+/output/*.drl
 /venv/
 /jlcpcb/
