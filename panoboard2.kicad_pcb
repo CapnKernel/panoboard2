@@ -5126,10 +5126,10 @@
 		)
 		(model "${KIPRJMOD}/local.pretty/FUSE-TH_BD5.5-L21.5-P24.00-D0.7.wrl"
 			(offset
-				(xyz 0 0 0)
+				(xyz 1.2 0 3.1)
 			)
 			(scale
-				(xyz 1 1 1)
+				(xyz 0.94 1 1)
 			)
 			(rotate
 				(xyz 0 0 0)
